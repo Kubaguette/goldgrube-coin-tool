@@ -1,0 +1,39 @@
+# --- Python & System Müll (Standard) ---
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# --- Entwicklungsumgebungen (Nicht hochladen!) ---
+.env
+venv/
+.conda/
+.vscode/
+.idea/
+
+# --- BILDER IGNORIEREN ---
+# Ignoriert diese Endungen im gesamten Projekt
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+*.tiff
+*.JPG
+*.JPEG
+*.PNG
+
+# --- Bild-Ordner komplett ignorieren ---
+# Damit auch Unterordner mit Bildern nicht gescannt werden
+data/dataset_clean/
+data/images_raw/
+*_crop_*
+
+# --- Generierte Dateien ---
+# Der ORB Index wird beim Start neu generiert, muss nicht hoch
+data/database/orb_index.pkl
+
+# --- WAS ERLAUBT IST ---
+# .py Dateien werden hochgeladen
+# .csv Dateien (deine master_coin_list) werden hochgeladen
+# .pth Dateien (dein KI Modell) werden hochgeladen (sofern < 100MB)

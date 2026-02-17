@@ -1,0 +1,9 @@
+opencv-python
+rembg
+numpy
+pandas
+openpyxl
+ultralytics
+onnxruntime
+segment-anything
+streamlit

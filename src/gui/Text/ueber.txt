@@ -1,0 +1,19 @@
+GOLDGRUBE v1.0
+Keltische Münzbestimmung mittels KI
+
+------------------------------------------------
+HÄUFIGE FRAGEN (Q&A)
+------------------------------------------------
+
+1. Welche KI-Technologie steckt dahinter? Wir setzen auf eine bewährte ResNet34-Architektur (Deep Residual Learning). Dieses neuronale Netz ist der Goldstandard für Bildklassifizierung und zeichnet sich durch extrem hohe Robustheit gegenüber Bildrauschen aus. Zusätzlich nutzen wir TTA (Test Time Augmentation): Die KI betrachtet jede Münze im Millisekunden-Takt mehrfach aus verschiedenen Blickwinkeln (gespiegelt, gezoomt), bevor sie eine Entscheidung trifft – ähnlich wie ein Experte, der eine Münze unter der Lupe dreht.
+
+2. Wie wurde das Modell trainiert? Das Training erfolgte nach dem "Clean Data"-Prinzip: Statt auf Masse wurde auf maximale Datenqualität bei 10 bereinigten Hauptklassen gesetzt. Wir nutzten modernste Techniken wie Super-Convergence (OneCycleLR) für effizientes Lernen und Weighted Sampling, um sicherzustellen, dass seltene Münztypen (z.B. vom Magdalensberg) genauso präzise erkannt werden wie Massenfunde (z.B. aus Manching).
+
+3. Wer hat das Programm entwickelt? Dieses Projekt entstand im Rahmen des Moduls "Data Challenges".
+
+Team & Entwicklung:
+Angelika & Jakub
+
+------------------------------------------------
+System: Bazzite Linux / Python / PyQt6
+Status: Phase 3 (GUI & Inference)
