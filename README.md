@@ -33,3 +33,5 @@ Bash: ```python train_resnet_clean_tta.py```
 Wenn das Projekt eingerichtet und ein Modell vorhanden ist, kann die Hauptanwendung gestartet werden:
 
 Bash: ```python CoinApp.py```
+
+Bei Fragen gerne bei mir melden: s5863311@stud.uni-frankfurt.de
